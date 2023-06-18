@@ -1,0 +1,152 @@
+body{
+    margin:0;
+    background-color:#F7F7F9;
+    /* #6E6E6E; */
+
+}
+main{
+    position:relative;
+}
+
+.center{
+    text-align: center;
+}
+
+button{
+    /* outline:none; */
+    border:none;
+    background-color:#6E6E6E;
+    position:relative;
+    top:8px;
+    left:-10px;
+    border-radius:0px 20px 20px 0px;
+}
+.search-control{
+    height:30px;
+    width:300px;
+    outline:none;
+    overflow-y: hidden;
+    margin-bottom:60px;
+}
+.search-btn i{
+    font-size: 2.15rem;
+    color: white;
+}
+
+.favourite-contanier{
+text-align:center;
+}
+.fav{
+    font-size:1.5rem;
+    background-color:rgba(0,0,0,0);
+    cursor: pointer;
+}
+.fav i{
+    color:fuchsia;
+}
+.notFound{
+ font-size:2rem;   
+ color:orangered;
+}
+#meal{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left:20px;
+    margin-right:20px;
+}
+.title{
+    text-align: center;
+}
+.meal-item{
+width:200px;
+border-radius:20px;
+box-shadow:0px 0px 6px 4px  rgb(218, 216, 216);
+margin:20px;
+position:relative;
+}
+
+#meal-image img{
+    height:130px;
+    width:200px;
+    border-radius:20px 20px 0px 0px;
+}
+.meal-name{
+    text-align:center;
+    padding-bottom:20px;
+}
+
+#colour{
+    color:green;
+}
+.star i{
+    font-size:1rem;
+    margin-left:170px;
+    position:absolute;
+    color:#6E6E6E;
+    bottom:5px;
+    left:10px;
+}
+.meal-name a{
+    text-decoration:none;
+    color:white;
+    border-radius:20px;
+    padding:10px;
+    background-color:#6E6E6E;
+}
+
+ .meal-details{
+    color:white;
+    display:none;
+    min-height:90%;
+    height:auto;
+    width:90%;
+    background-color:#6E6E6E;
+    /* #7DA2A9; */
+     position:fixed;
+    top:3%;
+    left:5%;
+    text-align:center;
+    border-radius:10px;
+   } 
+.cancle{
+    width:100%;
+    text-align:right;
+    margin-left:10px;
+    background-color:#6E6E6E;
+}
+.cancle i{
+    font-size:1rem;
+    height:15px;
+    color:black;
+    width:15px;
+    border-radius:50%;
+    background-color:#BCFD4C;
+    text-align:center;
+    margin-left:30px;
+    padding:3px;
+}
+#category{
+ text-align:center;
+ color:black;
+ margin:0 auto;
+   width:120px;
+   border-radius:10px;
+   background-color:#BCFD4C;
+}
+#category p{
+    padding:5px;
+}
+
+ #recipe-meal-img img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    margin-bottom:15px;
+} 
+
+
+a{
+     text-decoration:none; 
+    color:white;
+}
