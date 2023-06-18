@@ -13,13 +13,14 @@ cancle.addEventListener('click',function(){
     mealDetails.style.display="none";
 });
 
-
+// eventHandlers
 searchButton.addEventListener('click', getMealList);
 document.addEventListener('click', getMealRecipe);
 fav.addEventListener('click',function(){
     addStarList(starList);
 });
 
+// get the mealList which is search in serach bar 
 function getMealList() {
     let searchInputTxt = document.getElementById('search-input').value.trim();
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
@@ -120,6 +121,7 @@ function  addFavouriteList(mealItem){
 //   addStarList(starList);
 }
 
+// remove item from favourites 
 function removeFavItem(mealItem){
     favList=[];
     starList.forEach(item=>{
@@ -133,6 +135,7 @@ function removeFavItem(mealItem){
     console.log(starList);
 }
 
+// add to favourite List 
 function addStarList(starList){
     let html = "";
     document.getElementById('search-input').value="";
